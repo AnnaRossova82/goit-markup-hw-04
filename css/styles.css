@@ -312,17 +312,12 @@ button {
   margin-bottom: 8px;
 }
 
-.advantages-icons-list {
-  display: flex;
-  gap: 24px;
-}
-
-.advantages-list-icon {
+.social-list-icon {
   width: 64px;
   height: 64px;
 }
 
-.advantages-list-item {
+.icons-for-advantages {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   background: #f4f4fd;
@@ -334,11 +329,6 @@ button {
   justify-content: center;
   width: calc((100%-72px) / 4);
   column-gap: 24px;
-}
-
-.advantages-list-icon {
-  display: block;
-  justify-content: center;
 }
 
 .advantages-list {
