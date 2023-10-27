@@ -415,6 +415,11 @@ button {
   background-color: #404bbf;
 }
 
+.social-list-item:hover,
+.social-list-item:focus {
+  background-color: #404bbf;
+}
+
 .team-section {
   background-color: #f4f4fd;
 }
@@ -577,6 +582,10 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+}
+
+.social-list {
+  gap: 16px;
 }
 
 .social-list-item {
