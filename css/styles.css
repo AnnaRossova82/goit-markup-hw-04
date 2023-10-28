@@ -392,6 +392,7 @@ button {
 }
 
 .social-list-icon {
+  gap: 24px;
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
@@ -567,19 +568,21 @@ button {
   margin-bottom: 16px;
 }
 
-.social-list {
+.social-list-footer {
   gap: 16px;
+  display: flex;
 }
 
-.social-list-item {
+.social-list-item-footer {
+  display: flex;
   gap: 16px;
   width: 40px;
   height: 40px;
   background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
   background-color: #31d0aa;
 }
 
