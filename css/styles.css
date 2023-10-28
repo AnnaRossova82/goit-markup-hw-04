@@ -359,14 +359,13 @@ button {
   fill: #31d0aa;
 }
 .social-list {
+  gap: 24px;
   display: flex;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  gap: 24px;
 }
 
 .social-list-link {
-  gap: 24px;
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -377,19 +376,17 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-items:hover,
-.social-list-items:focus {
+.social-list:hover,
+.social-list:focus {
   background-color: #404bbf;
 }
 
 .social-list-items {
-  gap: 24px;
   width: 40px;
   height: 40px;
 }
 
 .social-list-icon {
-  gap: 24px;
   width: 16px;
   height: 16px;
   fill: #f4f4fd;
