@@ -302,18 +302,6 @@ button {
 
 /* ============== SECTION ADVANTAGES second section ============== */
 
-.links-pictures {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icons-for-links {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .icon-cover {
   border-radius: 4px;
   border: 1px solid #8e8f99;
@@ -374,6 +362,7 @@ button {
   display: flex;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 24px;
 }
 
 .social-list-link {
@@ -387,8 +376,8 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-item:hover,
+.social-list-item:focus {
   background-color: #404bbf;
 }
 
